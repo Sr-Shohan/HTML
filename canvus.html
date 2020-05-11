@@ -1,5 +1,51 @@
 <!DOCTYPE html>
 <html>
+
+<head>
+    <style>
+
+        div.absolute{
+            position: absolute;
+            right: 0;
+            width: 100px;
+            height: 100px;
+            border: 3px solid greenyellow;
+        }
+        div.ex1{
+            max-width: 500px;
+            margin: 10px;
+            border: 3px solid green;
+            align-items: center;
+        }
+
+        table,th, td{
+            visibility:visible;
+            vertical-align: bottom;
+            text-align: left;
+           border-bottom: 1px solid rgb(173, 74, 74);
+            height: 50px;
+        }
+
+
+        table{
+            margin-top: 10px;
+            padding: 15px;
+            border-collapse: collapse;
+            width: 100%;
+        }
+       th{
+           background-color: #4caf50;
+           color: white;
+         text-align:center;
+         
+           height: 50px;
+       }
+       tr:hover{background-color: rgb(184, 184, 161);}
+       tr:nth-child(even){background-color: bisque;}
+    
+
+    </style>
+</head>
       
 <body>
    
@@ -31,17 +77,44 @@
 
    <source src="video.mp4" type="video/mp4">
 </video>
+<br>
+<br>
+<br>
 
+<table>
+    
+   
+    <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Points</th>
+      </tr>
+      <tr>
+        <td>Peter</td>
+        <td>Griffin</td>
+        <td>$100</td>
+      </tr>
+      <tr>
+        <td>Lois</td>
+        <td>Griffin</td>
+        <td>$150</td>
+      </tr>
+      <tr>
+        <td>Joe</td>
+        <td>Swanson</td>
+        <td>$300</td>
+      </tr>
+      <tr>
+        <td>Cleveland</td>
+        <td>Brown</td>
+        <td>$250</td>
+      </tr>
+    
 
-<object  width="100%" height="500px" data="form.html"></object>
-
-<object width="60%" height="100%" data="form.html" ></object>
-
-
-
+</table>
   
-        
-  
+        <div class="ex1">Kind of horror.</div>
+  <div class="absolute">ok</div>
 
 </body>
 

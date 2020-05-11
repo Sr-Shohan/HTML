@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> <title>Css Template</title> 
+<meta charset="utf-8">
+<meta name="viewport"  content="height=device-width",initial-scale=1">
+<style>* {
+    box-sizing: border-box;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+li a{
+    color: rgb(21, 24, 24);
+    text-align: center;
+    padding: 10px;
+    display:block;
+    text-decoration: none;
+}
+li{float:left;}
+li a:hover{
+    background-color: rgba(196, 52, 52, 0.253);
+    font-size:large;
+}
+
+nav{
+    float: left;
+    width: 30%;
+    height: auto;
+    background: #ccc;
+    padding: 20px;
+   
+}
+ 
+ ul{
+     background-color: rgb(37, 172, 142);
+
+     overflow: auto;
+    
+     list-style-type:none;
+     padding: 0px;
+ }
+
+
+ article{
+     float: left;
+     padding: 20px;
+     width: 40%;
+     background-color: #f1f1f1;
+     height: auto;
+ }
+
+ aside{
+     float: left;
+     padding: 20px;
+     padding-top: 40px;
+     width: 30%;
+     height: auto;
+     background-color: azure;
+
+     
+ }
+
+
+ section:after{
+     display: table;
+     content: "";
+     clear:both;
+
+
+ }
+
+
+ #page-container {
+  position: relative;
+  min-height: 50vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5px;    /* Footer height */
+}
+
+#footer {
+    background-color: #666;
+    text-align: center; 
+    color: aliceblue;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;            /* Footer height */
+}
+
+
+
+</style>
+</head>
+
+<body>
+
+    <div><ul>
+        <li><strong><a href="css.html" title="Home">Home</a></strong></li>
+        <li><a href="new.html#news" title="News">News</a></li>
+        <li><a href="#contact"title="Contact">Contact</a></li>
+        <li><a href="#about"title="About">About</a></li>
+      </ul></div>
+
+
+    <section>
+     <nav>
+         
+         <img src="image/london.PNG" title="london city" width="100%" height="100%" >
+           <figcaption>London city</figcaption>
+        
+     </nav>
+    
+
+     <article>
+         <h2>London</h2>
+             <p>London is the capital city of England. It is the most populous city in the United Kingdom,with a metropolitan are of over 13 million inhabitants.</p>
+             <p>Standing on the River Thames, London has been major settlement  for two millennia, its history going back to its founding by the Romans, where named it Londinium. </p>
+              <P>London is situated in southeastern England, lying astride the River Thames some 50 miles (80 km) upstream from its estuary on the North Sea. In satellite photographs the metropolis can be seen to sit compactly in a Green Belt of open land, with its principal ring highway (the M25 motorway) threaded around it at a radius of about 20 miles (30 km) from the city centre. The growth of the built-up area was halted by strict town planning controls in the mid-1950s. Its physical limits more or less correspond to the administrative and statistical boundaries separating the metropolitan county of Greater London from the “home counties” of Kent, Surrey, and Berkshire (in clockwise order) to the south of the river and Buckinghamshire, Hertfordshire, and Essex to the north. The historic counties of Kent, Hertfordshire, and Essex extend in area beyond the current administrative counties with the same names to include substantial parts of the metropolitan county of Greater London, which was formed in 1965. Most of Greater London south of the Thames belongs to the historic county of Surrey, while most of Greater London north of the Thames belongs historically to the county of Middlesex. Area Greater London, 607 square miles (1,572 square km). Pop. (2001) Greater London, 7,172,091; (2011 prelim.) Greater London, 8,173,941.</P>
+     </article>
+
+     <aside>
+        <p>London is situated in southeastern 
+            England, lying astride the River Thames some 50
+             miles (80 km) upstream from its estuary on the North Sea. In satellite photographs the metropolis can be seen to sit compactly in a Green Belt of open land, with its principal ring highway (the M25 motorway) threaded around it at a radius of about 20 miles (30 km) from the city centre. The growth of the built-up area was halted by strict town planning controls in the mid-1950s. Its physical limits more or less correspond to the administrative and statistical boundaries separating the metropolitan county of Greater London from the “home counties” of Kent, Surrey, and Berkshire (in clockwise order) to the south of the river and Buckinghamshire, Hertfordshire, and Essex to the north. The historic counties of Kent, Hertfordshire, and Essex extend in area beyond the current administrative counties with the same names to include substantial parts of the metropolitan county of Greater London, which was formed in 1965. Most of Greater London south of the Thames belongs to the historic county of Surrey, while most of Greater London north of the Thames belongs historically to the county of Middlesex. Area Greater London, 607 square miles (1,572 square km). Pop. (2001) Greater London, 7,172,091; (2011 prelim.) Greater London, 8,173,941.</p>
+    </aside>
+  
+     
+    </section>
+   
+   
+  
+
+    
+    <div id="page-container">
+        <div id="content-wrap">
+          <!-- all other page content -->
+        </div>
+        <footer id="footer">Privacy policy</footer>
+      </div>
+
+
+
+
+      <picture><source srcset="image/london.png"  media="(max-width:1200px)">    </picture>
+</body>
+
+</html>
